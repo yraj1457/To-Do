@@ -1,0 +1,112 @@
+body{
+	background-color: black;
+	width: 400px;
+	height: 400px;
+}
+
+.header{
+	text-align: center;
+}
+
+.header h1{
+	font-size: 50px;
+	margin:0;
+	color: #1e88e5;
+}
+
+.header h1:hover{
+	color: white;
+	transition-duration: 1s;
+}
+
+.header h3{
+	margin: 0;
+	font-size: 15px;
+	color: #1e88e5;
+}
+
+.header h3:hover{
+	color: white;
+	transition-duration: 1s;
+}
+
+.enterhere{
+	border-radius: 20px;
+	padding: 12px 70px;
+	border: solid #1e88e5;
+}
+
+.add{
+	border-radius: 50px;
+	background-color: #1e88e5;
+	color: white;
+	cursor: pointer;
+	padding: 8px 15px;
+}
+
+.add:hover{
+	color: #1e88e5;
+	background-color: white;
+	transition-duration: 2.5s;
+}
+
+
+
+.clearall{
+	border-radius: 10px;
+	padding: 5px 20px;
+	background-color: #1e88e5;
+	color: white;
+	float: left;
+	
+}
+
+.clearall:hover{
+	color: #005005;
+	background-color: white;
+	cursor: pointer;
+	transition-duration: 2.5s;
+	
+}
+
+.thank{
+	border-radius: 10px;
+	padding: 5px 20px;
+	background-color: #1e88e5;
+	color: white;
+	float: right;
+	
+}
+
+.thank:hover{
+	color: #005005;
+	background-color: white;
+	cursor: pointer;
+	transition-duration: 2.5s;
+	
+}
+
+
+
+
+
+li{
+	text-align: center;
+}
+
+.tasks li{
+	border-color: solid #005005;
+	color: white;
+	text-align: justify;
+	font-size: 20px;
+	list-style-type: none;
+	margin: 40px;
+	cursor: pointer;
+}
+
+
+
+li.done{
+	text-decoration: line-through;
+}
+
